@@ -70,15 +70,9 @@ export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
-<<<<<<< HEAD
-  // ========== for profile picture  ==========
-  const profileImage =  "/assets/profile_picture.jpeg";
-=======
-  // ========== APNI IMAGE YAHAN SET KARO ==========
-  const profileImage =  "/assets/profile_picture.jpeg"; // Apni image ka path yahan daalo
->>>>>>> c48f419
+
+  const profileImage =  "/assets/profile_picture.png"; 
   
-  // ========== for social links  ==========
   const socialLinks = {
     linkedin: "https://www.linkedin.com/in/nikhil-kumar-7a6672305/",
     github: "https://github.com/nikhilkumar7512",
