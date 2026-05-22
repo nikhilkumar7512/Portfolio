@@ -70,17 +70,17 @@ export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  // ========== APNI IMAGE YAHAN SET KARO ==========
-  const profileImage =  "/assets/profile_picture.png"; // Apni image ka path yahan daalo
+  // ========== for profile picture  ==========
+  const profileImage =  "/assets/profile_picture.jpeg";
   
-  // ========== APNI LINKS YAHAN SET KARO ==========
+  // ========== for social links  ==========
   const socialLinks = {
     linkedin: "https://www.linkedin.com/in/nikhil-kumar-7a6672305/",
     github: "https://github.com/nikhilkumar7512",
     instagram: "https://www.instagram.com/nikhil__prajapati___/"
   };
   
-  // ========== APNA EMAIL YAHAN SET KARO ==========
+  // ========== for email address ==========
   const myEmail = "nikhilnk7575@gmail.com";
 
   const copy = () => {
