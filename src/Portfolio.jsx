@@ -71,7 +71,7 @@ export default function Portfolio() {
   const [copied, setCopied] = useState(false);
 
   // ========== APNI IMAGE YAHAN SET KARO ==========
-  const profileImage = "/assets/profile.png"; // Apni image ka path yahan daalo
+  const profileImage =  "/assets/profile_picture.png"; // Apni image ka path yahan daalo
   
   // ========== APNI LINKS YAHAN SET KARO ==========
   const socialLinks = {
